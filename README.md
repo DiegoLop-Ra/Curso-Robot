@@ -1,3 +1,4 @@
+
 Copyright Beaufort Fairmont, LLC 2019. All rights reserved.
 
 
@@ -18,7 +19,7 @@ Exercise numbering is for internal purposes. Numbering is key in planning and tr
 
 This course has been customized specifically for Test Automation University.
 
-This document lists concepts and exercises in the order they are planned to be delivered. Numbering of exercises may differ. 
+This document lists concepts and exercises in the order they are planned to be delivered. Numbering of exercises may differ.
 
 Course contents:
 * tour-of - Complex examples of many of the features of RF.
