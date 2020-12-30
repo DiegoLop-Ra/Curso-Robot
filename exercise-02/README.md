@@ -1,4 +1,3 @@
-
 # Project Setup
 
 ## Purpose:
