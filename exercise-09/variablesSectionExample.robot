@@ -1,8 +1,9 @@
+
 *** Settings ***
 
 
 *** Test Cases ***
-Using Variable  
+Using Variable
   # Log a message, with a literal string. No Variable are used here.
   Log to Console   My name is Paul. My favorite color is teal. My favorite NFL team is the Jaguars.
 
