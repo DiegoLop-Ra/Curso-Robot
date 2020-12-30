@@ -1,3 +1,4 @@
+
 # Basics of Keywords
 
 ## Purpose:
@@ -9,7 +10,7 @@ The purpose of this exercise is for participants to learn how to create a custom
 - Automators will create a custom keyword
 - Automators will be able to state the section of the file a keyword must go in
 - Automators will be able to define what makes robotframework so powerful
-- Automators will be able to restate the 3 places a keyword can be defined 
+- Automators will be able to restate the 3 places a keyword can be defined
 
 ## Challenge:
 

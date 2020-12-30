@@ -1,3 +1,4 @@
+
 *** Settings ***
 Library  SeleniumLibrary
 Library  OperatingSystem
@@ -24,7 +25,7 @@ Create an Invoice
 Navigate To Home Page
     Open Browser    ${SiteUrl}		${Browser}
     Set Selenium Speed    .25 Seconds
-    
+
 Click Add Invoice
     Click Link  Add Invoice
     Page Should Contain Element     invoiceNo_add

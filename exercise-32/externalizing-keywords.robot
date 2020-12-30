@@ -1,3 +1,4 @@
+
 *** Settings ***
 Library  SeleniumLibrary
 Library  OperatingSystem
@@ -23,7 +24,7 @@ Create an Invoice
 Navigate To Home Page
     Open Browser    ${SiteUrl}		${Browser}
     Set Selenium Speed    .25 Seconds
-    
+
 Click Add Invoice
     Click Link  Add Invoice
     Page Should Contain Element     invoiceNo_add
@@ -44,7 +45,7 @@ Add Invoice
     Input Text  comment   ${Comments}
     Select From List By Value   selectStatus    ${Status}
     Click Button    createButton
-    
+
 Delete Invoice If Exists
     ${invoice_count}=   Get Element Count    css:[id^='invoiceNo_paulm'] > a
     Run Keyword If      ${invoice_count} > 0    Delete Invoice  css:[id^='invoiceNo_paulm'] > a

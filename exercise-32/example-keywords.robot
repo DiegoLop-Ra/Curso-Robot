@@ -1,3 +1,4 @@
+
 *** Settings ***
 
 
@@ -21,7 +22,7 @@ Add
   ${value}=  Evaluate  ${value1} + ${value2}
   [Return]  ${value}
 
-Change Nickname 
+Change Nickname
   [Arguments]  ${original}  ${new}
   [Return]    ${new}
 
@@ -30,7 +31,7 @@ My Log
    Log to Console   This is the message: "${text}"
    Log to Console   This is the message: "${text}"
    Log to Console   This is the message: "${text}"
-   
+
 Print Profile
    [Arguments]  ${firstName}  ${lastName}  ${title}  ${twitterHandle}
    Log to Console   \n__Profile__
@@ -38,4 +39,4 @@ Print Profile
    Log to Console   Last Name: "${lastName}"
    Log to Console   Title: "${title}"
    Log to Console   Twitter Handle: "${twitterHandle}"
- 
+
