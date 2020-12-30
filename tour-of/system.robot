@@ -1,3 +1,4 @@
+
 *** Keywords ***
 Configure Selenium
      Set Selenium Speed    .25 Seconds
@@ -9,7 +10,7 @@ Navigate To Homepage
 Exit Selenium
     Capture Page Screenshot
     Close Browser
-    
+
 Generate Random Number
     ${random_number}    Evaluate    random.randint(1000000, 9999999)   random
     [return]    ${random_number}

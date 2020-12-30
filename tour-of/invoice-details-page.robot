@@ -1,3 +1,4 @@
+
 *** Keywords ***
 Enter Invoice Number
     [Arguments]    ${invoice_id}
@@ -26,7 +27,7 @@ Enter Due Date
 Enter Description
     [Arguments]     ${description}
     Input Text   css:[ng-model="invoice.comment"]   ${description}
-    
+
 Submit Invoice Form
     Click Button    createButton
 

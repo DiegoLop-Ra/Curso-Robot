@@ -1,3 +1,4 @@
+
 *** Keywords ***
 Read Invoice Fixtures
     ${json_data}=     Get File    ${EXECDIR}/invoice-fixtures.json
@@ -13,7 +14,7 @@ Get Dummy Invoice
     ${invoice}=  Get From Dictionary     ${Invoices}     ${invoice_name}
     Randomize Invoice Id    ${invoice}
     [return]    ${invoice}
-    
+
 Randomize Invoice Id
     [Arguments]    ${invoice}
     ${random_number}=  Generate Random Number
